@@ -1,0 +1,105 @@
+html,body {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    flex-direction: column;
+    display: flex;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+}
+main{
+    flex: 1;
+}
+.cabeçalho {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 100px; 
+    margin-top: 50px;
+}
+
+.minha-foto {
+    height: 250px; 
+    width: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.meu-nome {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 40px; 
+    text-align: center;
+    margin: 0;
+}
+
+.menu {
+    margin-top: 50px;
+}
+
+.menu-lista {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    gap: 120px; 
+    
+}
+
+.menu-lista a {
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.menu-lista a:hover {
+    color: #28a745;
+    transform: scale(1.5);
+}
+
+.texto-eu {
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 0 20px;
+    margin: 40px auto;
+    max-width: 800px; 
+    text-align: center;
+}
+
+.projetos{
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 0 20px;
+    margin: 40px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+footer h1 {
+    font-size: 24px;
+}
+
+footer h4 {
+    margin: 10px 0;
+}
+
+
